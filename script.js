@@ -35,7 +35,7 @@ function save()
         countEl.textContent += count + " "
     
   sumTotal()
-  infoEl.textContent += countStr
+  infoEl.textContent += "Transactions : " + countStr
   countEl.textContent = 0
   count = 0
 };
